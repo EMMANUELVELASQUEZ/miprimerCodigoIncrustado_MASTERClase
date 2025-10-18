@@ -1,0 +1,21 @@
+<!--CODIGO DE HTML CON JAVASCRIPT-->
+<!--CODIGO INCRUSTADO-->
+<!DOCTYPE html>
+<html lang = "es">
+    <head>
+        <meta charset="UTF-8">
+        <title>PROYECTOS COMPAS</title>
+    </head>
+    <body>
+        <h1>HOLA COMPAS</h1>
+        <button id="boton">🌎click🌎</button>
+        <script>
+            const boton  = document.getElementById('boton')
+            const titulo = document.getElementById('titulo')
+
+            boton,addEventListener('click', ()=> { 
+                titulo.textContent = 'Hola JavaScript';
+            });
+        </script>
+    </body>
+</html>
